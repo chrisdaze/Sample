@@ -1,7 +1,7 @@
 <apex:page standardController="Requested_Product__c" showHeader="true" sidebar="true" tabStyle="Requested_Product__c" title="Edit Requested Products" >
     <apex:pageBlock id="errorblock" rendered="true" tabStyle="Requested_Product__c" title="Note" mode="detail">
         <apex:pageBlockSection collapsible="false" id="errormsg" columns="1">
-            <p>Edit option is disabled. Please delete and recreate a new Item line instead.</p>
+            <p>Edit option is disabled. Please delete and recreate a new Item line instead. This is now a new message</p>
         </apex:pageBlockSection>
     </apex:pageBlock>
 </apex:page>
